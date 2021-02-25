@@ -2,7 +2,7 @@
   "name": "yt-playlist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://singhatithi.github.io/yt-playlist/",
+  "homepage": "https://singhatithi.github.io/studyplaylist/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
