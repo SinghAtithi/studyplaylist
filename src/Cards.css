@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #ff7381,
+    #ed6c8e,
+    #d66898,
+    #bc669e,
+    #a1659f
+  );
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+
+.card {
+  /* display: flex; */
+  width: 300px;
+  height: 150px;
+  /* padding: 25px; */
+  margin: 15px;
+  border-style: double;
+  border-radius:35px;
+  margin-left: -0px;
+  text-decoration: none;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+
+.logo h3{
+  color: white;
+  font-size: 15px;
+  text-decoration: white;
+}
+a:link{
+  text-decoration: none;
+}
+.cards{
+  text-decoration: none;
+}
+
+.text{
+  align-items: center;
+  margin-top: 25px;
+  color: white;
+  /* font-size: 15px; */
+}
+.text h4{
+  margin-top: 15px;
+  color: rgb(197, 197, 197);
+}
+
+
+.btn{
+  margin-bottom: 35px;
+  border-radius: 20px;
+}
+
+h1{
+  margin-top: 20px;
+  font-size: 38px;
+}
