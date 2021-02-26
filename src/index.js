@@ -6,7 +6,7 @@ import "./index.css";
 ReactDOM.render(
   <>
     <div className="title">
-      <h1>My Youtube Playlists!</h1>
+      <h1>My 📖 Playlists!</h1>
     </div>
     <Cards name="React" color="#283593 " link="https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ" creator="Thapa Technical" />
 
@@ -19,6 +19,8 @@ ReactDOM.render(
     <Cards name="Unacademy CP" color="#1976D2" link="https://unacademy.com/@healthyug" creator="Demoralizer" />
 
     <Cards name="My-Github" color="#000000" link="https://github.com/SinghAtithi" creator="Of-course Me!" />
+
+    {/* <Cards name="google" color="#458654" link="https://github.com/SinghAtithi" creator="Of-course Me!" /> */}
   </>,
   document.getElementById("root")
 );

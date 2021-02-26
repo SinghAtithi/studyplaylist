@@ -7,16 +7,9 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to right top,
-    #ff7381,
-    #ed6c8e,
-    #d66898,
-    #bc669e,
-    #a1659f
-  );
+  background-color: rgb(192, 192, 192);
   background-repeat: no-repeat;
-  background-size: auto auto;
+  /* background-size: auto auto; */
 }
 
 .card {
@@ -32,10 +25,11 @@ body {
   box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .card:hover {
+  /* background-color: indianred; */
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
@@ -62,6 +56,7 @@ a:link{
 }
 .text h4{
   margin-top: 15px;
+  font-size: 18px;
   color: rgb(197, 197, 197);
 }
 
@@ -69,6 +64,10 @@ a:link{
 .btn{
   margin-bottom: 35px;
   border-radius: 20px;
+}
+
+.btn:hover{
+  background-color: green;
 }
 
 h1{
