@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Cards from "./Cards";
+import "./bansal.css"
 import "./index.css";
 
 ReactDOM.render(
